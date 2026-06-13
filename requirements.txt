@@ -1,0 +1,29 @@
+# ============================================================
+# requirements.txt -- Prescriptive Demand Forecasting Engine
+# ============================================================
+
+# Core scientific stack
+numpy>=1.24.0,<2.0.0
+pandas>=2.0.0,<3.0.0
+
+# Phase 5: Streamlit Frontend
+streamlit>=1.20.0
+plotly>=5.0.0
+
+# Phase 2: TFT Predictive Engine
+torch>=2.0.0
+pytorch-forecasting>=1.0.0
+lightning>=2.0.0
+tensorboard>=2.14.0
+
+# Phase 3: Causal Inference Engine
+econml>=0.15.0
+scikit-learn>=1.3.0
+lightgbm>=4.0.0
+# streamlit>=1.28.0             # Phase 5: Dashboard
+# plotly>=5.18.0                # Phase 5: Fan charts
+
+# Utilities
+tqdm>=4.65.0
+pyarrow>=14.0.0
+matplotlib>=3.7.0
